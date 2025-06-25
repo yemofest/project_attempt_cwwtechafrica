@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adeyemo Adeniji - Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="about">About</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Adeyemo, I am a tech enthuasist. Currently learning web development at cwwtech africa.</p>
+        <p>I have degree in engineering, and certifications in Data Analysi, Sales and Marketing, Jobberma Soft Skills certificatio</p>
+        <p>and many others, I have experiences and competences in Engineering, Education, Data Analysis, and Web development-Frontend</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-gallery">
+            <div class="project">
+              <img src="./image/BMI Tracker.jpg" alt="First Project">
+            <p>BMI Tracker for tracking body mass index</p>
+        </div>
+         
+        <div class="portfolio-gallery">
+            <div class="project">
+              <img src="./image/Book review Site.jpg" alt="Book Review Site">
+            <p>A site for reviewnig books for college esudents/readers</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm" onsubmit="submitForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Adeyemo Adeniji. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
